@@ -345,3 +345,15 @@ body.dense .article-body p {
     line-height: 1.48;
     margin-bottom: 20px;
 }
+
+body.compact .article-body p {
+    font-size: 12px;
+}
+
+body.balanced .article-body p {
+    font-size: 20px;
+}
+
+body.dense .article-body p {
+    font-size: 30px;
+}
