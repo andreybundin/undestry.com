@@ -306,7 +306,8 @@ body.dense .article-body p {
         margin-bottom: 26px;
     }
    
-   .article-body {
-    background: red !important;
 }
+
+.article-page {
+    background: blue !important;
 }
