@@ -212,3 +212,79 @@ footer {
         margin-bottom: 90px;
     }
 }
+/* --------------------------------
+   Article
+-------------------------------- */
+
+.article-page {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 100px 32px 140px;
+}
+
+.article-meta {
+    margin-bottom: 28px;
+
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 11px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.article-page h1 {
+    margin: 0;
+
+    font-family: "IBM Plex Serif", serif;
+    font-size: 52px;
+    line-height: 1.1;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+}
+
+.article-subtitle {
+    margin: 24px 0 70px;
+
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.article-body p {
+    margin: 0 0 28px;
+
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 17px;
+    line-height: 1.68;
+}
+
+.article-body p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* --------------------------------
+   Article — mobile
+-------------------------------- */
+
+@media (max-width: 700px) {
+
+    .article-page {
+        padding: 70px 20px 90px;
+    }
+
+    .article-page h1 {
+        font-size: 40px;
+    }
+
+    .article-subtitle {
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
+
+    .article-body p {
+        font-size: 17px;
+        line-height: 1.65;
+        margin-bottom: 26px;
+    }
+}
