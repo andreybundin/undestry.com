@@ -251,11 +251,11 @@ footer {
 }
 
 .article-body p {
-    margin: 0 0 28px;
+    margin: 0 0 22px;
 
     font-family: "IBM Plex Sans", sans-serif;
-    font-size: 17px;
-    line-height: 1.68;
+    font-size: 16px;
+    line-height: 1.55;
 }
 
 .article-body p:last-child {
