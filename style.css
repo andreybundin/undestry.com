@@ -305,4 +305,8 @@ body.dense .article-body p {
         line-height: 1.65;
         margin-bottom: 26px;
     }
+   
+   .article-body {
+    background: red !important;
+}
 }
