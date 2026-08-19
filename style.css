@@ -1,9 +1,6 @@
 /* --------------------------------
    Base
 -------------------------------- */
-body {
-    background: red !important;
-}
 
 * {
     box-sizing: border-box;
@@ -306,8 +303,4 @@ body.dense .article-body p {
         margin-bottom: 26px;
     }
    
-}
-
-.article-page {
-    background: blue !important;
 }
