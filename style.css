@@ -289,20 +289,41 @@ footer {
     }
 }
 
-/* --------------------------------
-   Dark theme preview
--------------------------------- */
+/* =================================
+   DARK THEME
+================================= */
 
 body.dark {
-    background: #171716;
+    background-color: #171716;
     color: #e6e4de;
 }
 
-body.dark .research-item,
+body.dark .site-header {
+    color: #e6e4de;
+}
+
+body.dark .logo,
+body.dark nav a {
+    color: #e6e4de;
+}
+
+body.dark .article-page {
+    color: #e6e4de;
+}
+
+body.dark .article-meta {
+    color: #a8a69f;
+}
+
+body.dark .article-subtitle {
+    color: #c9c7c0;
+}
+
+body.dark .article-body {
+    color: #e6e4de;
+}
+
 body.dark footer {
+    color: #a8a69f;
     border-color: #3a3935;
-}
-
-body.dark a {
-    color: #e6e4de;
 }
