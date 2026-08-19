@@ -353,6 +353,13 @@ body.compact .article-body p {
 body.balanced .article-body p {
     font-size: 20px;
 }
+/* TEST */
+
+body.compact .article-body p {
+    font-size: 12px !important;
+    line-height: 1.2 !important;
+    margin-bottom: 5px !important;
+}
 
 body.dense .article-body p {
     font-size: 30px;
