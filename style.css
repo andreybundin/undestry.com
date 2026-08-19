@@ -327,3 +327,21 @@ body.dark footer {
     color: #a8a69f;
     border-color: #3a3935;
 }
+
+body.compact .article-body p {
+    font-size: 16px;
+    line-height: 1.55;
+    margin-bottom: 22px;
+}
+
+body.balanced .article-body p {
+    font-size: 17px;
+    line-height: 1.68;
+    margin-bottom: 28px;
+}
+
+body.dense .article-body p {
+    font-size: 16px;
+    line-height: 1.48;
+    margin-bottom: 20px;
+}
