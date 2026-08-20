@@ -213,38 +213,6 @@ footer {
     margin-bottom: 0;
 }
 
-
-/* --------------------------------
-   Article density experiments
--------------------------------- */
-
-/* Compact */
-
-body.compact .article-body p {
-    font-size: 14px;
-    line-height: 1.3;
-    margin-bottom: 10px;
-}
-
-
-/* Balanced */
-
-body.balanced .article-body p {
-    font-size: 20px;
-    line-height: 1.8;
-    margin-bottom: 40px;
-}
-
-
-/* Dense */
-
-body.dense .article-body p {
-    font-size: 30px;
-    line-height: 1.2;
-    margin-bottom: 5px;
-}
-
-
 /* --------------------------------
    Mobile
 -------------------------------- */
