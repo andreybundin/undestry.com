@@ -288,9 +288,9 @@ footer {
 .article-statement {
     margin: 56px 0;
 
-    font-family: "IBM Plex Serif", serif;
-    font-size: 20px;
-    line-height: 1.45;
-    font-style: italic;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 400;
     letter-spacing: -0.01em;
 }
