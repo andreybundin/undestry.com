@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Engineering Context — Undestry</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Serif:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+
+<body>
+
+    <header class="site-header">
+
+        <a href="index.html" class="logo">
+            UNDESTRY
+        </a>
+
+         <nav>
+            <a href="practice.html">Practice</a>
+            <a href="notes.html">Notes</a>
+            <a href="briefs.html">Briefs</a>
+            <a href="research.html">Research</a>
+        </nav>
+
+    </header>
+
+
+    <main class="article-page">
+
+        <article id="article">
+
+            <div class="article-meta">
+                RESEARCH NOTE 06 · AUGUST 2026
+            </div>
+
+            <h1>
+                Engineering Context
+            </h1>
+
+            <p class="article-subtitle">
+                Why industrial AI needs an engineering memory.
+            </p>
+
+
+            <div class="article-body">
+
+    <p>
+        Industrial enterprises are increasingly surrounded by information systems.
+        Enterprise resource planning, maintenance platforms, engineering databases,
+        document management systems, supervisory control systems and analytical
+        applications all describe different aspects of the same physical environment.
+        Each system may perform its intended function well. The difficulty appears
+        when a decision requires information to cross the boundaries between them.
+    </p>
+
+    <p>
+        A maintenance engineer may need equipment identity, operating history,
+        technical documentation, current condition and planned work at the same time.
+        A project manager may need to understand how a design change affects equipment,
+        procurement, construction and future maintenance. A plant executive may need
+        to know whether a reported operational problem is isolated or indicates a
+        broader change in the state of the asset base.
+    </p>
+
+
+    <h2>The problem of fragmented context</h2>
+
+    <p>
+        In practice, these pieces of information rarely form a single coherent picture.
+        They exist in different systems, follow different naming conventions and are
+        maintained by different organizational processes. The problem is therefore
+        not simply that information is distributed. It is that the relationships
+        between pieces of information are often distributed as well.
+    </p>
+
+    <p>
+        This creates a peculiar form of uncertainty. The enterprise may possess
+        enormous amounts of data while still lacking a reliable answer to a relatively
+        simple question: what is the current state of this particular asset?
+    </p>
+
+<div class="article-statement">
+    The problem is not the amount of data an enterprise possesses.
+    It is whether that data can be understood as a coherent representation
+    of the physical system.
+</div>
+                
+    <p>
+        The answer may require combining an equipment register with maintenance history,
+        engineering documentation, inspection results, operational measurements and
+        information about ongoing work. Each source may be individually correct while
+        the combined picture remains incomplete, outdated or ambiguous.
+    </p>
+
+    <p>
+        This is why adding another application does not necessarily solve the problem.
+        A new system can create another useful source of information while leaving the
+        underlying fragmentation untouched. More data can even increase the difficulty
+        of making a decision when there is no reliable way to determine which information
+        should be considered authoritative in a particular context.
+    </p>
+
+
+    <h2>From data to engineering context</h2>
+
+    <p>
+        The problem is therefore not primarily technological. It is a problem of
+        context. Data becomes useful for decision making only when its meaning,
+        relationships, origin and current state can be established.
+    </p>
+
+    <p>
+        A drawing can describe an object. A maintenance record can describe an
+        intervention. A sensor can describe a measurement. A planning system can
+        describe future work. None of these sources, taken independently, represents
+        the asset itself.
+    </p>
+
+    <p>
+        What is missing is an engineering context: a dynamic representation that
+        connects these fragments and makes their relationships explicit. Such a
+        context does not need to reproduce every piece of source information. Its
+        purpose is to establish the structure within which information can be
+        interpreted.
+    </p>
+
+    <p>
+        This distinction also changes the way digital models should be understood.
+        A useful engineering model is not necessarily the most detailed model, nor
+        does it need to reproduce every physical characteristic of an asset. Its value
+        comes from its ability to represent the relationships that matter for a
+        particular decision.
+    </p>
+
+    <p>
+        In this sense, an engineering context is less a replacement for existing
+        information systems than a connective layer between them. It provides a
+        common frame of reference without requiring every source to become part of
+        a single monolithic system.
+    </p>
+
+
+    <h2>Engineering memory for AI</h2>
+
+    <p>
+        This distinction becomes particularly important as industrial organizations
+        begin introducing AI agents. An agent can retrieve documents, query databases
+        and summarize information. But retrieval alone does not guarantee that the
+        retrieved information describes the right object, the right version or the
+        right operational state.
+    </p>
+
+    <p>
+        An engineering agent therefore needs something more fundamental than a large
+        document repository. It needs an operational memory of the environment in
+        which its reasoning takes place.
+    </p>
+
+    <p>
+        Such a memory should allow an agent to understand not only what information
+        exists, but why it is relevant, how different sources relate to one another,
+        when a particular state was observed and which source should be trusted for
+        a given question.
+    </p>
+
+    <p>
+        This does not necessarily imply a single enterprise database or a universal
+        digital twin. In many cases, the more useful architecture may be a lightweight
+        contextual layer that connects existing systems while preserving their
+        individual roles.
+    </p>
+
+    <p>
+        The strategic question is consequently shifting. Instead of asking how to put
+        more industrial data into AI systems, organizations should ask how to make the
+        engineering meaning of that data computable.
+    </p>
+
+    <p>
+        The answer will determine not only the quality of industrial AI applications,
+        but also the degree to which those applications can be trusted in environments
+        where decisions affect physical assets, safety, production and capital.
+    </p>
+
+</div>
+        </article>
+
+    </main>
+
+
+    <footer>
+
+        <div class="meta">
+            UNDESTRY · 2026
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
